@@ -1,13 +1,24 @@
 import React from "react";
 import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+
 import TinderCards from "./Components/TinderCards";
+import Chats from "./Components/Chats";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <TinderCards />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Header></Header>
+            <TinderCards></TinderCards>
+          </Route>
+          <Route exact path="/Chats">
+            <Header WhereTo="/"></Header>
+            <Chats></Chats>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
