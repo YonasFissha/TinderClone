@@ -18,12 +18,14 @@ const Header = ({ WhereTo }) => {
           <PersonIcon className="header__icons" fontSize="large" />
         </IconButton>
       )}
+      <Link to="/">
+        <img
+          className="header__image"
+          src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
+          alt=""
+        />
+      </Link>
 
-      <img
-        className="header__image"
-        src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
-        alt=""
-      />
       <Link exact to="/Chats">
         <IconButton>
           <ForumIcon className="header__icons" fontSize="large" />
