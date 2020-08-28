@@ -1,0 +1,31 @@
+.Footer {
+  display: flex;
+  position: fixed;
+  bottom: 5vh;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.Footer .MuiIconButton-root {
+  background-color: white;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+.Footer_Close {
+  color: tomato !important;
+  padding: 3vw !important;
+}
+.Footer_Replay {
+  color: #f5b748 !important;
+  padding: 3vw !important;
+}
+.Footer_Star {
+  color: #62b4f9 !important;
+  padding: 3vw !important;
+}
+.Footer_Fev {
+  color: #76e2b3 !important;
+  padding: 3vw !important;
+}
+.Footer_Flash {
+  color: #915dd1 !important;
+  padding: 3vw !important;
+}
